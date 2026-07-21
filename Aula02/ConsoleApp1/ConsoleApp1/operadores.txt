@@ -1,0 +1,36 @@
+// Processamento de dados em C# 14.0
+//operadores aritméticos
+
+int a = 1 + 1; //op soma
+int b = 2-1; //op subtração    
+int c = 3*1; //op multiplicação
+double d = 4/1; //op divisão
+double e = 2 * 2 * 2;//op potenciação
+double f = Math.Sqrt(4);//op raiz quadrada
+Math.Pow(2, 3); //op exponenciação
+double k = 1 + (1 - (2 * 3)) / 4; //op complexa
+double j = 2 % 2; //op resto da divisão
+int y = 0;
+Console.WriteLine(y);
+y++;//incremento
+Console.WriteLine(y);
+y--;//decremento
+Console.WriteLine(y);
+y +=2;//incremento de 2
+y-= 2;//decremento de 2
+y *= -2;//multiplicação de 2
+y /= 2;//divisão de 2
+y %= 2;//resto da divisão de 2
+Console.WriteLine(y);
+
+Console.WriteLine("Digite seu nome: ");
+String nome  = Console.ReadLine();//etrada de dados 
+
+Console.Write("Digite ssua idade: ");
+int idade = int.Parse(Console.ReadLine());//entrada de dados
+
+Console.Write("Digite seu salarario ");
+double salario = double.Parse(Console.ReadLine());//entrada de dados
+
+Console.WriteLine($"nome : {nome}, idade : {idade + 1}, Salaraio R$ {salario}");
+

@@ -1,0 +1,25 @@
+using  static System.Console;
+
+string name = "Americana";
+BackgroundColor = ConsoleColor.Green; // Set the console background color to blue
+double number = 10.511615616;
+
+Console.WriteLine("Hello, World!");
+Console.Write($"SENAI {name}\n");// saida de dados
+Title = "aplicativo senai ";
+ForegroundColor = ConsoleColor.Red;// Set the console text color to red
+WriteLine("MESSI");
+Beep(1000, 500); // Beep sound with frequency 1000 Hz and duration 500 ms
+WriteLine("""
+    Salve familia tudo bom 
+    alou aleluia 
+    salve tamo junto alow 
+    """);
+/*
+ 
+*/
+ResetColor();// Reset the console color to default
+WriteLine("MESSI");
+WriteLine($"Salario $ {number:n}");
+
+ReadKey();
