@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="atividade01estruturacondicional/atividade01estruturacondicional.csproj" />
+  <Project Path="medidas/medidas.csproj" />
   <Project Path="operadores/operadores.csproj" />
+  <Project Path="tratamento_de_erros/tratamento_de_erros.csproj" />
 </Solution>

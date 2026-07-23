@@ -1,0 +1,85 @@
+int a;
+int b;
+int c;
+bool a1;
+Console.WriteLine("Digite o primeiro valor");
+a = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite o segundo valor");
+b = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite o terceiro valor");
+c = int.Parse(Console.ReadLine());
+
+a1 = a == b;
+
+Console.WriteLine(a == b ? "Verdadeiro" : "Falso");
+
+Console.WriteLine(a != b ? "Verdadeiro" : "Falso");
+
+Console.WriteLine(b > a ? "Verdadeiro" : "Falso");
+
+Console.WriteLine(b <= c ? "Verdadeiro" : "Falso");
+
+Console.WriteLine(a == b &b> c ? "Verdadeiro" : "Falso");
+
+Console.WriteLine(a != b || b >= c ? "Verdadeiro" : "Falso");
+
+Console.WriteLine( !a1  ? "Verdadeiro" : "Falso");
+
+
+
+// operadores relacionais
+/* < maior que
+ * > menor que
+ * <= menor ou igual a
+ * >= maior ou igual a
+ * == igual a
+ * != diferente de
+
+
+
+double x = 2.14;
+int y = 2;
+char a = 'S';
+char b = 'N';
+
+
+Console.WriteLine(a == b);// operador de igualdade
+Console.WriteLine(a != b); // operador de diferente
+Console.WriteLine(a == b ? "Verdade" : "ok");// operador ternário
+
+if (x < y)// estrutura condicional
+{
+    Console.WriteLine("sim");
+}
+else {
+    Console.WriteLine("nao");
+}
+ */
+
+//operadores lógicos
+/*
+ * ! operador de negação
+ * & e logico
+ * | ou logico
+ * ^ ou exclusivo lógico
+ * &&  e logico ou condicional
+ * || ou logico ou condicional
+ */
+
+bool x = true;
+bool y = false;
+
+Console.WriteLine(!x);// operador de negação faz a inversão do valor logico 
+Console.WriteLine(x & y);// operador & logico retorna verdadeiro se ambos forem verdadeiros
+Console.WriteLine(x && y);// operador && logico ou condicional retorna verdadeiro se ambos forem verdadeiros
+Console.WriteLine(x | y);// operador | logico retorna verdadeiro se um dos dois for verdadeiro
+Console.WriteLine(x ^ y);// operador ^ ou exclusivo logico retorna verdadeiro se um dos dois for verdadeiro e o outro falso
+Console.WriteLine(x || y);// operador |
+
+
+
+
+
+
